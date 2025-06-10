@@ -5,7 +5,7 @@
     <groupId>com.dndmanager</groupId>
     <artifactId>dndapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>D&D Manager Application</name>
+    <name>D&amp;D Manager Application</name>
     <properties>
         <java.version>21</java.version>
         <spring-boot.version>3.3.0</spring-boot.version>
