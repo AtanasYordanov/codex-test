@@ -1,7 +1,7 @@
-# Spring Demo Application
+# D&D Character Manager
 
-This repository contains a minimal [Spring Boot](https://spring.io/) web application configured for
-PostgreSQL, Spring Data JPA and Spring Security.
+This repository contains a minimal [Spring Boot](https://spring.io/) web application for managing
+Dungeons & Dragons characters. It is configured for PostgreSQL, Spring Data JPA and Spring Security.
 
 ## Requirements
 - Java 21
@@ -16,4 +16,4 @@ cd springapp
 mvn spring-boot:run
 ```
 
-The application exposes a secured endpoint at `http://localhost:8080/messages` which requires Basic authentication (`user`/`password`).
+The application exposes a secured endpoint at `http://localhost:8080/characters` which requires Basic authentication (`user`/`password`).
