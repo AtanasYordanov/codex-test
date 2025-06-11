@@ -10,6 +10,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    - name: Install front-end dependencies
+      working-directory: front-end
+      run: npm ci
+    - name: Build front-end
+      working-directory: front-end
+      run: npm run build
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
