@@ -19,7 +19,7 @@ The application exposes a secured endpoint at `http://localhost:8080/characters`
 
 ## Front-end Angular App
 
-The `front-end` directory contains a simple Angular application. You will need Node.js 18 or newer and npm installed.
+The `front-end` directory contains a simple Angular application. You will need Node.js 20 or newer and npm installed.
 Start the development server with:
 
 ```bash
