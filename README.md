@@ -9,11 +9,20 @@ Dungeons & Dragons characters. It is configured for PostgreSQL, Spring Data JPA 
 - PostgreSQL running locally on `localhost:5432` with user `postgres` and password `postgres` (or update `application.properties`)
 
 ## Building and Running
-To build and start the application:
+To build and start the Spring Boot application:
 
 ```bash
-cd springapp
-mvn spring-boot:run
+mvn -f spring/pom.xml spring-boot:run
 ```
 
 The application exposes a secured endpoint at `http://localhost:8080/characters` which requires Basic authentication (`user`/`password`).
+
+## Front-end Angular App
+
+The `front-end` directory contains a simple Angular application. You will need Node.js 18 or newer and npm installed.
+Start the development server with:
+
+```bash
+cd front-end
+npm start
+```

@@ -16,5 +16,5 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
     - name: Build with Maven
-      working-directory: springapp
+      working-directory: spring
       run: mvn -B verify
